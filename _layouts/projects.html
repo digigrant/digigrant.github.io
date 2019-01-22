@@ -2,6 +2,7 @@
 layout: default
 ---
 {% for project in site.data.projects %}
+<p>{{ project.name }}</p>
   {% if page.title == project.name %}
     <h1>{{ project.name }}</h1>
     <p>Platform: {{ project.platform }}</p>
