@@ -2,7 +2,7 @@
 layout: default
 ---
 {% for project in site.data.projects %}
-  {% if project.name==page.title}
+  {% if page.title == project.name %}
     <h1>{{ project.name }}</h1>
     <p>Platform: {{ project.platform }}</p>
     <p>Genre: {{ project.genre }}</p>
