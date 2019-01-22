@@ -1,17 +1,13 @@
 ---
 layout: default
 ---
-{% for project in site.data.projects %}
-<p>{{ project[1].name }}</p>
-  {% if page.title == project.name %}
-    <h1>{{ project.name }}</h1>
-    <p>Platform: {{ project.platform }}</p>
-    <p>Genre: {{ project.genre }}</p>
-    <p>Players: {{ project.players }}</p>
-    <p>Engine: {{ project.engine }}</p>
-    <p>Development: {{ project.start }} - {{ project.end }}</p>
-  {% endif %}
-{% endfor %}
+
+<h1>{{ page.projectname }}</h1>
+<p>Platform: {{ page.platform }}</p>
+<p>Genre: {{ page.genre }}</p>
+<p>Players: {{ page.players }}</p>
+<p>Engine: {{ page.engine }}</p>
+<p>Development: {{ page.start }} - {{ page.end }}</p>
 
 {{ content }}
 
