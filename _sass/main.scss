@@ -24,7 +24,7 @@ nav ul, footer ul
 a
 {
     text-decoration: none;
-    color: #999;
+    color: #8BA693;
     
     &:hover
     {
@@ -36,6 +36,7 @@ h1
 {
     font-size: 3em;
     font-family: $font-family;
+    color: #28475C;
 }
 
 p
@@ -47,13 +48,13 @@ p
 
 footer
 {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #8BA693;
     font-size: .8em;
 }
 
 .current
 {
-  color: red;
+  color: 4A6C74;
 }
 
 ul.specs
