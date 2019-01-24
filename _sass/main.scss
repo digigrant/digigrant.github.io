@@ -81,8 +81,8 @@ ul.specs
 
 .row
 {
-    height: 400px;
-    padding: 30px;
+    height: 300px;
+    padding: 0;
     border: 1px solid $color4;
     
     ul
@@ -95,6 +95,8 @@ ul.specs
         {
             width: 33.33%;
             float: left;
+            align: center;
+            margin: 30px;
         }
     }
 }
