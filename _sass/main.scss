@@ -95,8 +95,13 @@ ul.specs
         {
             width: 23%;
             float: left;
-            align: center;
             margin: 10%;
+            
+            img
+            {
+                align: center;
+                width: 100px;
+            }
         }
     }
 }
