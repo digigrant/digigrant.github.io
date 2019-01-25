@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<ul class="specs">
-  <li>Platform: {{ page.platform }}</li>
-  <li>Genre: {{ page.genre }}</li>
-  <li>Players: {{ page.players }}</li>
-  <li>Engine: {{ page.engine }}</li>
-  <li>Development: {{ page.start }} - {{ page.end }}</li>
-</ul>
+<div class="project-header">
+  <h1>{{ page.title }}</h1>
+  <ul class="specs">
+    <li>Platform: {{ page.platform }}</li>
+    <li>Genre: {{ page.genre }}</li>
+    <li>Players: {{ page.players }}</li>
+    <li>Engine: {{ page.engine }}</li>
+    <li>Development: {{ page.start }} - {{ page.end }}</li>
+  </ul>
+</div>
 
 {{ content }}
 
