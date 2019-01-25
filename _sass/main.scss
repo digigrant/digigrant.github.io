@@ -109,8 +109,14 @@ ul.specs
 .project-header
 {
     background-color: $color4;
+    padding: 30px;
     
     .specs
+    {
+        border: 1px solid $color3;
+    }
+    
+    .video
     {
         border: 1px solid $color5;
     }
