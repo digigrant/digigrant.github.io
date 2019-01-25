@@ -111,13 +111,25 @@ ul.specs
     background-color: $color4;
     padding: 30px;
     
-    .specs
+    .left
     {
-        border: 1px solid $color3;
+        .specs
+        {
+            border: 1px solid $color3;
+        }
     }
     
-    .video
+    .right
     {
-        border: 1px solid $color5;
+        float: right;
+        
+        .video
+        {
+            border: 1px solid $color5;
+        }
     }
+    
+    
+    
+    
 }
