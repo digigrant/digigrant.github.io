@@ -113,6 +113,9 @@ ul.specs
     
     .left
     {
+        float: left;
+        width: 50%;
+        
         .specs
         {
             border: 1px solid $color3;
@@ -122,14 +125,11 @@ ul.specs
     .right
     {
         float: right;
+        width: 50%;
         
         .video
         {
             border: 1px solid $color5;
         }
     }
-    
-    
-    
-    
 }
