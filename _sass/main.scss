@@ -105,3 +105,13 @@ ul.specs
         }
     }
 }
+
+.project-header
+{
+    background-color: $color4;
+    
+    .specs
+    {
+        border: 1px solid $color5;
+    }
+}
