@@ -76,10 +76,12 @@ ul.specs
 {
     height: 400px;
     border: 1px solid $color4;
+    overflow: auto;
     
     ul
     {
         list-style-type: none;
+        overflow: auto;
         
         .col
         {
