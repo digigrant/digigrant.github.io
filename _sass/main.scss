@@ -74,9 +74,7 @@ ul.specs
 
 .col
 {
-    align: center;
-    padding: 15px;
-    border: 1px solid $color5;
+    
 }
 
 .row
@@ -98,6 +96,7 @@ ul.specs
             .col
             {
                 width: 20%;
+                border: 1px solid $color5;
                 
                 img
                 {
