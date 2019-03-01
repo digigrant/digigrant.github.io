@@ -89,15 +89,8 @@ ul.specs
         margin: 0;
         padding: 0;
         
-        a
+        .col
         {
-        
-            li
-            {
-                float: left;
-
-                .col
-                {
                     width: 20%;
                     border: 1px solid $color5;
 
@@ -112,13 +105,12 @@ ul.specs
                         align: center;
                     }
                 }
-
-                .gap
+        }
+    
+        .gap
                 {
                     width: 10%;
                 }
-            }
-        }
     }
 }
 
