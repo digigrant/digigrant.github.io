@@ -88,7 +88,7 @@ ul.specs
         {
             float: left;
             width: 20%;
-            border: 1px solid $color5;
+            background-color: $color3;
             padding: 40px;
 
                     img
@@ -99,6 +99,7 @@ ul.specs
 
                     h3
                     {
+                        background-color: $color2;
                         align: center;
                     }
         }
