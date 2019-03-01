@@ -118,6 +118,7 @@ ul.specs
     .project-container
     {
         padding: 30px;
+        overflow: auto;
         
         .specs
         {
@@ -128,6 +129,7 @@ ul.specs
         {
             float: right;
             width: 40%;
+            height: auto;
         }
     }
 }
