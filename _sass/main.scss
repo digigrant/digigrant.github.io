@@ -91,24 +91,18 @@ ul.specs
             background-color: $color3;
             padding: 25px;
 
-                    img
-                    {
-                        align: center;
-                        width: 250px;
-                    }
+            img
+            {
+                align: center;
+                width: 250px;
+            }
 
-                    h3
-                    {
-                        color: $color2;
-                        align: center;
-                    }
+            h3
+            {
+                color: $color2;
+                align: center;
+            }
         }
-    
-        .gap
-                {
-                    float: left;
-                    width: 10%;
-                }
     }
 }
 
