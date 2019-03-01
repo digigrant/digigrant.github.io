@@ -3,7 +3,10 @@ layout: default
 ---
 <div class="project-header">
   <h1>{{ page.title }}</h1>
-  <div class="left">
+  <div class="project-container">
+    <div class="video">
+      <iframe width="100%" height="100%" src={{page.video-url}} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <ul class="specs">
       <li>Platform: {{ page.platform }}</li>
       <li>Genre: {{ page.genre }}</li>
@@ -11,9 +14,6 @@ layout: default
       <li>Engine: {{ page.engine }}</li>
       <li>Development: {{ page.start }} - {{ page.end }}</li>
     </ul>
-  </div>
-  <div class="right">
-    <iframe width="100%" height="100%" src={{page.video-url}} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
