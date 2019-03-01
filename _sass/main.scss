@@ -93,14 +93,18 @@ ul.specs
         
         li
         {
-            width: 23%;
+            width: 25%;
             float: left;
-            margin: 10%;
             
             img
             {
                 align: center;
                 width: 100px;
+            }
+            
+            h3
+            {
+                align: center;
             }
         }
     }
