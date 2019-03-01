@@ -64,14 +64,6 @@ footer
   color: $color4;
 }
 
-ul.specs
-{
-    color: $color3;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 .row
 {
     height: 400px;
@@ -125,13 +117,18 @@ ul.specs
         .specs
         {
             border: 1px solid $color3;
+            list-style-type: none;
+            
+            li
+            {
+                color: $color3;
+                font-family: $font-family;
+            }
         }
 
         .video
         {
             float: right;
-            width: 40%;
-            height: auto;
         }
     }
 }
