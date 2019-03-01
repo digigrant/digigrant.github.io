@@ -104,23 +104,28 @@ ul.specs
 
 .project-header
 {
-    background-color: $color4;
-    padding: 30px;
+    background-color: $color2;
     
-    .left
+    h1
     {
-        float: left;
-        width: 40%;
+        font-size: 3em;
+        font-family: $font-family;
+        color: $color1;
+    }
+    
+    .project-container
+    {
+        padding: 30px;
         
         .specs
         {
             border: 1px solid $color3;
         }
-    }
-    
-    .right
-    {
-        float: right;
-        width: 40%;
+
+        .video
+        {
+            float: right;
+            width: 40%;
+        }
     }
 }
