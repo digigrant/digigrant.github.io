@@ -11,7 +11,7 @@ body
 {
     background-color: $color1;
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 
 nav ul, footer ul
@@ -93,19 +93,27 @@ ul.specs
         
         li
         {
-            width: 25%;
-            margin: 6.75%;
             float: left;
             
-            img
+            .col
             {
-                align: center;
-                width: 150px;
+                width: 20%;
+                
+                img
+                {
+                    align: center;
+                    width: 150px;
+                }
+
+                h3
+                {
+                    align: center;
+                }
             }
             
-            h3
+            .gap
             {
-                align: center;
+                width: 10%;
             }
         }
     }
