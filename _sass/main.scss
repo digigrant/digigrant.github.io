@@ -89,30 +89,34 @@ ul.specs
         margin: 0;
         padding: 0;
         
-        li
+        a
         {
-            float: left;
-            
-            .col
+        
+            li
             {
-                width: 20%;
-                border: 1px solid $color5;
-                
-                img
+                float: left;
+
+                .col
                 {
-                    align: center;
-                    width: 150px;
+                    width: 20%;
+                    border: 1px solid $color5;
+
+                    img
+                    {
+                        align: center;
+                        width: 150px;
+                    }
+
+                    h3
+                    {
+                        align: center;
+                    }
                 }
 
-                h3
+                .gap
                 {
-                    align: center;
+                    width: 10%;
                 }
-            }
-            
-            .gap
-            {
-                width: 10%;
             }
         }
     }
