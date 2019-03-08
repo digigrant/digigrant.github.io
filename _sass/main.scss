@@ -136,3 +136,22 @@ footer
         }
     }
 }
+
+ul.gallery
+{
+    list-style-type: circle;
+    overflow: auto;
+    
+    li
+    {
+        float: left;
+        overflow: auto;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        
+        img
+        {
+            width: 450px;
+        }
+    }
+}
