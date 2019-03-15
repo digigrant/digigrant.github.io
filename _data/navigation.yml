@@ -1,8 +1,5 @@
-- name: Home
-  link: /
-
 - name: Projects
-  link: /projects.html
+  link: /
 
 - name: Resume
   link: /resume.html
