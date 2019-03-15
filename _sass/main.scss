@@ -96,6 +96,19 @@ footer
                 text-align: center;
             }
         }
+        
+        a:hover
+        {
+            .col
+            {
+                background-color: $color2;
+
+                h3
+                {
+                    color: $color1;
+                }
+            }
+        }
     }
 }
 
