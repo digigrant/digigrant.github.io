@@ -1,4 +1,4 @@
-@import "colors.scss";
+@import "colors";
 
 $font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 
@@ -112,40 +112,4 @@ footer
     }
 }
 
-.project-header
-{
-    background-color: $color2;
-    
-    h1
-    {
-        font-size: 3em;
-        font-family: $font-family;
-        color: $color1;
-    }
-    
-    .project-container
-    {
-        padding: 30px;
-        overflow: auto;
-        
-        .specs
-        {
-            border: 1px solid $color3;
-            list-style-type: none;
-            
-            li
-            {
-                color: $color3;
-                font-family: $font-family;
-                margin-bottom: 15px;
-            }
-        }
-
-        .video
-        {
-            width: 100%;
-            height: auto;
-            float: right;
-        }
-    }
-}
+@import "project-header";
