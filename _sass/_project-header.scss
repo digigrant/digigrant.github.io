@@ -1,12 +1,12 @@
 .project-header
 {
-    background-color: $color2;
+    background-color: $color3;
     
     h1
     {
         font-size: 3em;
         font-family: $font-family;
-        color: $color1;
+        color: $color4;
     }
     
     .project-container
@@ -16,12 +16,12 @@
         
         .specs
         {
-            border: 1px solid $color3;
+            border: 1px solid $color2;
             list-style-type: none;
             
             li
             {
-                color: $color3;
+                color: $color2;
                 font-family: $font-family;
                 margin-bottom: 15px;
             }
