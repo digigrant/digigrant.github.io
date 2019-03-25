@@ -9,8 +9,7 @@ $font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 
 body
 {
-    background-color: $color2;
-    margin: 60px auto;
+    background-color: $color1;
     width: 80%;
 }
 
@@ -31,7 +30,7 @@ nav ul, footer ul
 a
 {
     text-decoration: none;
-    color: $color3;
+    color: $color2;
     
     &:hover
     {
@@ -43,7 +42,7 @@ h1
 {
     font-size: 3em;
     font-family: $font-family;
-    color: $color3;
+    color: $color2;
 }
 
 p
@@ -55,7 +54,7 @@ p
 
 footer
 {
-    border-top: 1px solid $color5;
+    border-top: 1px solid $color2;
     font-size: .8em;
 }
 
@@ -77,7 +76,7 @@ footer
         {
             float: left;
             width: 450px;
-            background-color: $color1;
+            background-color: $color2;
             margin-right: 25px;
             margin-bottom: 25px;
 
