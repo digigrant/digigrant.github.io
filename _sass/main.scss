@@ -1,6 +1,5 @@
 @import "colors";
-
-$font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+@import "fonts";
 
 *
 {
@@ -15,10 +14,7 @@ body
 
 nav ul, footer ul
 {
-    font-family: $font-family;
     padding: 0px;
-    list-style: none;
-    font-weight: bold;
     
     li
     {
@@ -27,40 +23,9 @@ nav ul, footer ul
     }
 }
 
-a
-{
-    text-decoration: none;
-    color: $color2;
-    
-    &:hover
-    {
-        text-decoration: underline;
-    }
-}
-
-h1
-{
-    font-size: 3em;
-    font-family: $font-family;
-    color: $color2;
-}
-
-p
-{
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
 footer
 {
     border-top: 1px solid $color2;
-    font-size: .8em;
-}
-
-.current
-{
-  color: $color3;
 }
 
 .row
