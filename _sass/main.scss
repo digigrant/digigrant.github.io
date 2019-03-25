@@ -15,18 +15,11 @@ body
 header
 {
     background-color: $color4;
-    float: left;
 }
 
 nav
 {
     background-color: $color5;
-    float: left;
-}
-
-h1
-{
-    clear: left;
 }
 
 nav ul, footer ul
@@ -37,6 +30,19 @@ nav ul, footer ul
     {
         display: inline;
         margin-right: 20px;
+    }
+}
+
+.buttonNav
+{
+    width: 150px;
+    height: 50px;
+    background-color: $color2;
+    text-align: center;
+    
+    &:hover
+    {
+        background-color: $color3;
     }
 }
 
