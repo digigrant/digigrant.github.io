@@ -103,4 +103,21 @@ footer
     }
 }
 
-@import "project-header";
+
+.project-header
+{
+    background-color: $color3;
+    
+    .project-container
+    {
+        padding: 30px;
+        overflow: auto;
+
+        .video
+        {
+            width: 100%;
+            height: auto;
+            float: right;
+        }
+    }
+}
