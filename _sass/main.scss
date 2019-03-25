@@ -12,6 +12,16 @@ body
     width: 80%;
 }
 
+header
+{
+    background-color: $color4;
+}
+
+nav
+{
+    background-color: $color5;
+}
+
 nav ul, footer ul
 {
     padding: 0px;
