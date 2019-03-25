@@ -4,7 +4,6 @@ h1
 {
     font-family: $font-family;
     font-size: 3em;
-    
     color: $color2;
 }
 
@@ -55,4 +54,25 @@ nav ul, footer ul
 footer
 {
     font-size: .8em;
+}
+
+.project-header
+{
+    h1
+    {
+        font-family: $font-family;
+        font-size: 3em;
+        color: $color4;
+    }
+    
+    .specs
+    {
+        list-style-type: none;
+
+        li
+        {
+            font-family: $font-family;
+            color: $color2;
+        }
+    }
 }
