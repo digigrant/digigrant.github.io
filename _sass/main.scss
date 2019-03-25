@@ -15,11 +15,18 @@ body
 header
 {
     background-color: $color4;
+    float: left;
 }
 
 nav
 {
     background-color: $color5;
+    float: left;
+}
+
+h1
+{
+    clear: left;
 }
 
 nav ul, footer ul
