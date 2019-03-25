@@ -15,23 +15,14 @@ body
 header
 {
     background-color: $color4;
+    float: left;
 }
 
 nav
 {
     background-color: $color5;
+    float: left;
     overflow: auto;
-}
-
-nav ul, footer ul
-{
-    padding: 0px;
-    
-    li
-    {
-        display: inline;
-        margin-right: 20px;
-    }
 }
 
 .buttonNav
@@ -42,7 +33,6 @@ nav ul, footer ul
     text-align: center;
     float: left;
     
-    
     &:hover
     {
         background-color: $color1;
@@ -52,6 +42,17 @@ nav ul, footer ul
 footer
 {
     border-top: 1px solid $color2;
+    
+    ul
+    {
+        padding: 0px;
+        
+        li
+        {
+            display: inline;
+            margin-right: 20px;
+        }
+    }
 }
 
 .row
