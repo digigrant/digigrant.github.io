@@ -127,3 +127,22 @@ footer
         }
     }
 }
+
+.gallery
+{
+    list-style-type: none;
+    
+    li
+    {
+        float: left;
+        margin-right: 25px;
+        
+        a
+        {
+            img
+            {
+                width: 400px;
+            }
+        }
+    }
+}
