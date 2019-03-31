@@ -23,13 +23,13 @@ nav
 {
     width: 150px;
     line-height: 50px;
-    background-color: $color3;
+    background-color: $color1;
     text-align: center;
     float: left;
     
     &:hover
     {
-        background-color: $color1;
+        background-color: $color3;
     }
 }
 
