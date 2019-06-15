@@ -65,14 +65,30 @@ footer
         color: $color4;
     }
     
+    p
+    {
+        color: $color1;
+    }
+    
     .specs
     {
-        list-style-type: none;
+        list-style: none;
 
         li
         {
             font-family: $font-family;
             color: $color2;
+        }
+    }
+    
+    .buttonDownload
+    {
+        font-family: $font-family;
+        color: $color5;
+        
+        &:hover
+        {
+            color: $color4;
         }
     }
 }
