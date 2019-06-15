@@ -125,6 +125,19 @@ footer
             height: 540px;
             float: right;
         }
+        
+        .buttonDownload
+        {
+            width: 150px;
+            line-height: 50px;
+            background-color: $color4;
+            text-align: center;
+
+            &:hover
+            {
+                background-color: $color5;
+            }
+        }
     }
 }
 
