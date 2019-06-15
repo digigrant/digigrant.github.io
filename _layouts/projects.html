@@ -5,6 +5,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   <div class="project-container">
     <iframe class="video" src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
+    <p>{{ page.description }}</p>
     <ul class="specs">
       <li>Platform: {{ page.platform }}</li>
       <li>Genre: {{ page.genre }}</li>
@@ -12,6 +13,7 @@ layout: default
       <li>Engine: {{ page.engine }}</li>
       <li>Development: {{ page.start }} - {{ page.end }}</li>
     </ul>
+    <a href="{{ page.download }}"><div class="buttonDownload">Download</div></a>
   </div>
 </div>
 
