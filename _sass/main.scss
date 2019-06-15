@@ -118,6 +118,11 @@ footer
     {
         padding: 30px;
         overflow: auto;
+        
+        p
+        {
+            color: $color1;
+        }
 
         .video
         {
@@ -126,16 +131,24 @@ footer
             float: right;
         }
         
+        .specs
+        {
+            list-style-type: none;
+            color: $color2;
+        }
+        
         .buttonDownload
         {
             width: 150px;
             line-height: 50px;
             background-color: $color4;
+            color: $color5;
             text-align: center;
 
             &:hover
             {
                 background-color: $color5;
+                color: $color4;
             }
         }
     }
