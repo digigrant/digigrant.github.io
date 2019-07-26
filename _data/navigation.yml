@@ -1,6 +1,9 @@
 - name: Projects
   link: /
 
+- name: Writing
+  link: /writing.html
+
 - name: Resume
   link: /resume.html
 
