@@ -13,23 +13,11 @@ body
     margin-left: 15%;
 }
 
-header
-{
-    float: left;
-}
-
-nav
-{
-    width: 500px;
-    float: right;
-    overflow: auto;
-}
-
 .buttonNav
 {
     width: 150px;
     line-height: 50px;
-    background-color: $color1;
+    background-color: $color2;
     text-align: center;
     float: left;
     
