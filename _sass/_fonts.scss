@@ -56,6 +56,16 @@ footer
     font-size: .8em;
 }
 
+.buttonNav
+{
+    color: $color3;
+    
+    &:hover
+    {
+        color: $color1;
+    }
+}
+
 .project-header
 {
     h1
