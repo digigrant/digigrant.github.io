@@ -143,23 +143,27 @@ footer
         
         .downloads
         {
-            list-style: none;
-            padding-left: 0px;
             float: right;
-        }
-        
-        .buttonDownload
-        {
-            width: 144px;
-            line-height: 72px;
             
-            background-color: $color4;
-            text-align: center;
-            float: right;
-
-            &:hover
+            ul
             {
-                background-color: $color5;
+                list-style: none;
+                padding-left: 0px;
+                
+                .buttonDownload
+                {
+                    width: 144px;
+                    line-height: 72px;
+
+                    background-color: $color4;
+                    text-align: center;
+                    float: right;
+
+                    &:hover
+                    {
+                        background-color: $color5;
+                    }
+                }
             }
         }
     }
