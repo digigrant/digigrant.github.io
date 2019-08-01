@@ -6,6 +6,17 @@ layout: default
   <div class="project-container">
     <iframe class="video" src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
     <p>{{ page.description }}</p>
+    
+    <a href="{{ page.download }}"><div class="buttonDownload">Download</div></a>
+    
+    <ul class="downloads">
+    {% for item in site.data.downloads.{{ page.name | remove: ".html" }} %}
+      <li><a href="{{ item.download-link }}">
+        <div class="buttonDownload">{{ item.desc }}</div>
+      </a></li>
+    {% endfor %}
+    </ul>
+    
     <ul class="specs">
       <li>Platform: {{ page.platform }}</li>
       <li>Genre: {{ page.genre }}</li>
@@ -13,7 +24,6 @@ layout: default
       <li>Engine: {{ page.engine }}</li>
       <li>Development: {{ page.start }} - {{ page.end }}</li>
     </ul>
-    <a href="{{ page.download }}"><div class="buttonDownload">Download</div></a>
   </div>
 </div>
 
