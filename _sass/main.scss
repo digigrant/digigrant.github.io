@@ -53,11 +53,12 @@ h1
 
 footer
 {
+    clear: both;
     border-top: 1px solid $color2;
     
     ul
     {
-        margin: 0px;
+        padding-left: 0px;
         
         li
         {
@@ -132,7 +133,7 @@ footer
         {
             width: 960px;
             height: 540px;
-            float: right;
+            overflow: auto;
         }
         
         .specs
@@ -147,6 +148,7 @@ footer
             
             background-color: $color4;
             text-align: center;
+            float: right;
 
             &:hover
             {
