@@ -7,8 +7,6 @@ layout: default
     <iframe class="video" src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
     <p>{{ page.description }}</p>
     
-    <a href="{{ page.download }}"><div class="buttonDownload">Download</div></a>
-    
     <ul class="downloads">
     {% for item in site.data.downloads.{{ page.name | remove: ".html" }} %}
       <li><a href="{{ item.download-link }}">
