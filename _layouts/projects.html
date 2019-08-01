@@ -5,7 +5,9 @@ layout: default
   <h1>{{ page.title }}</h1>
   <div class="project-container">
     
-    <iframe class="video" src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
+    <div class="video">
+      <iframe src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
+    </div>
     
     <p>{{ page.description }}</p>
     
