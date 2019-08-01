@@ -11,9 +11,10 @@ layout: default
     
     <div class="downloads">
       <p>Downloads:</p>
+      
       <ul>
-      {% for item in site.data.downloads.{{ page.name | remove: ".html" }} %}
-        <li><a href="{{ item.download-link }}">
+      {% for item in site.data.downloads | where: "game", {{ page.name | remove: ".html" }} %}
+        <li><a href="{{ item.link }}">
           <div class="buttonDownload">{{ item.desc }}</div>
         </a></li>
       {% endfor %}
