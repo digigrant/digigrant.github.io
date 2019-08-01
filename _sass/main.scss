@@ -136,15 +136,17 @@ footer
         .specs
         {
             padding-left: 0px;
+            height: 300px;
         }
         
         .downloads
         {
             float: right;
+            height: 300px;
             
             ul
             {
-                list-style: none;
+                list-style-type: none;
                 padding-left: 0px;
                 
                 .buttonDownload
@@ -154,7 +156,6 @@ footer
 
                     background-color: $color4;
                     text-align: center;
-                    float: right;
 
                     &:hover
                     {
