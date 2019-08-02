@@ -122,6 +122,8 @@ footer
 {
     clear: left;
     background-color: $color3;
+    padding: 30px;
+    overflow: auto;
     
     h1
     {
@@ -134,9 +136,8 @@ footer
     
     .project-container
     {
-        padding: 30px;
         overflow: auto;
-
+        
         .video-container
         {
             width: 100%;
