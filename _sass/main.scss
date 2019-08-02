@@ -195,20 +195,25 @@ footer
 
 .gallery
 {
-    list-style-type: none;
-    padding-left: 0px;
+    overflow: auto;
     
-    li
+    ul
     {
-        float: left;
-        margin-right: 24px;
-        margin-bottom: 24px;
-        
-        a
+        list-style-type: none;
+        padding-left: 0px;
+
+        li
         {
-            img
+            float: left;
+            margin-right: 24px;
+            margin-bottom: 24px;
+
+            a
             {
-                width: 400px;
+                img
+                {
+                    width: 400px;
+                }
             }
         }
     }
