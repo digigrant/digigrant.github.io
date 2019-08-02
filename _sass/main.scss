@@ -158,14 +158,21 @@ footer
         
         .specs
         {
-            padding-left: 0px;
-            height: 300px;
+            width: 47.5%;
+            height: 200px;
+            
+            ul
+            {
+                padding-left: 0px;
+            }
         }
         
         .downloads
         {
             float: right;
-            height: 300px;
+            
+            width: 47.5%;
+            height: 200px;
             
             ul
             {
@@ -174,6 +181,7 @@ footer
                 
                 .buttonDownload
                 {
+                    float: left;
                     padding-left: 24px;
                     padding-right: 24px;
                     line-height: 72px;
