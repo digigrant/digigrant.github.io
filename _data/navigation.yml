@@ -1,5 +1,8 @@
 - name: Projects
   link: /
+  
+- name: Process
+  link: /process.html
 
 - name: Writing
   link: /writing.html
