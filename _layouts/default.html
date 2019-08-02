@@ -7,14 +7,15 @@
 	</head>
   
 	<body>
-		{% include header.html %}
-		{% include navigation.html %}
+		<div class="content-container">
+			{% include header.html %}
+			{% include navigation.html %}
     
-		<div class="container">
-			{{ content }}
-		</div><!-- /.container -->
+			<div class="container">
+				{{ content }}
+			</div><!-- /.container -->
     
 		{% include footer.html %}
-    
+		</div>
 	</body>
 </html>
