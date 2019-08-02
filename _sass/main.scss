@@ -186,12 +186,14 @@ footer
 
 .gallery
 {
-    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
     
     li
     {
         float: left;
-        margin-right: 25px;
+        margin-right: 24px;
+        margin-bottom: 24px;
         
         a
         {
