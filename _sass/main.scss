@@ -45,18 +45,20 @@ body
 
 nav
 {
+    width: 144px;
+    overflow: auto;
+    position: fixed;
+    
     ul
     {
         padding-left: 0px;
-        margin: auto;
     }
 }
 
 .buttonNav
 {
-    width: 144px;
+    width: 100%;
     line-height: 72px;
-    margin-right: 24px;
     margin-bottom: 24px;
     
     background-color: $color2;
