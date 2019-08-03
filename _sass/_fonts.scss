@@ -36,27 +36,6 @@ a
 {
     text-decoration: none;
     color: $color2;
-    
-    &:hover
-    {
-        text-decoration: underline;
-    }
-    
-    .logo
-    {
-        &:hover
-        {
-            text-decoration: none;
-        }
-    }
-}
-
-header
-{
-    h1
-    {
-        font-variant: small-caps;
-    }
 }
 
 nav ul, footer ul
@@ -74,6 +53,7 @@ footer
 
 .buttonNav
 {
+    font-family: $font-red-hat;
     color: $color3;
     
     &:hover
