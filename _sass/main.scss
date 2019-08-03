@@ -66,16 +66,47 @@ h1
 footer
 {
     clear: both;
-    border-top: 1px solid $color2;
+    height: 166px;
     
-    ul
+    .anchor
     {
-        padding-left: 0px;
+        width: 144px;
+        height: 166px;
+        position: relative;
         
-        li
+        float: left;
+        
+        margin-left: 24px;
+        margin-right: 24px;
+        
+        img
         {
-            display: inline;
-            margin-right: 20px;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+    }
+    
+    .links
+    {
+        float: left;
+        border-top: 1px solid $color2;
+        margin: auto;
+        
+        ul
+        {
+            padding-left: 0px;
+
+            li
+            {
+                display: inline;
+                margin-right: 20px;
+            }
         }
     }
 }
