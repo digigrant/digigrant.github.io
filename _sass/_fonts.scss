@@ -1,5 +1,6 @@
 $font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 $font-red-hat: 'Red Hat Display', sans-serif;
+$font-crimson: 'Crimson Text', serif;
 
 .logo
 {
@@ -10,14 +11,14 @@ $font-red-hat: 'Red Hat Display', sans-serif;
 
 h1
 {
-    font-family: $font-family;
+    font-family: $font-red-hat;
     font-size: 3em;
     color: $color2;
 }
 
 h2
 {
-    font-family: $font-family;
+    font-family: $font-red-hat;
     font-size: 1.5em;
     
     color: $color2;
@@ -25,11 +26,10 @@ h2
 
 p
 {
-    font-family: $font-family;
-    font-size: 1em;
+    font-family: $font-crimson;
     
     line-height: 1.4em;
-    color: #333;
+    color: #ffffff;
 }
 
 a
@@ -38,12 +38,10 @@ a
     color: $color2;
 }
 
-nav ul, footer ul
+ul
 {
     font-family: $font-family;
-    font-weight: bold;
-    
-    list-style: none;
+    list-style-type: none;
 }
 
 footer
@@ -66,7 +64,7 @@ footer
 {
     h1
     {
-        font-family: $font-family;
+        font-family: $font-red-hat;
         font-size: 6em;
         color: $color4;
     }
@@ -78,10 +76,9 @@ footer
     
     .specs
     {
-        list-style: none;
-
-        li
+        ul
         {
+            list-style-type: disc;
             font-family: $font-family;
             color: $color2;
         }
@@ -89,14 +86,12 @@ footer
     
     .buttonDownload
     {
-        font-family: $font-family;
-        font-weight: bold;
+        font-family: $font-red-hat;
         color: $color5;
         
         &:hover
         {
             color: $color4;
-            text-decoration-line: none;
         }
     }
 }
