@@ -35,13 +35,14 @@ nav
     line-height: 72px;
     margin-bottom: 24px;
     
-    background-color: $color2;
+    background-color: $ffffff;
+    opacity: 100;
     text-align: center;
     float: left;
     
     &:hover
     {
-        background-color: $color3;
+        opacity: 50;
     }
 }
 
