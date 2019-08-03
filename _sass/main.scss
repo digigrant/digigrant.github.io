@@ -156,7 +156,6 @@ footer
 .project-header
 {
     clear: left;
-    background-color: rgba(255,255,255,0.5);
     padding: 30px;
     overflow: auto;
     
@@ -261,6 +260,12 @@ footer
             }
         }
     }
+}
+
+.text-container
+{
+    background-color: rgba(255,255,255,0.5);
+    padding: 32px;
 }
 
 .pdf-container-page
