@@ -6,28 +6,28 @@ $font-crimson: 'Crimson Text', serif;
 {
     font-family: $font-red-hat;
     font-size: 96px;
-    color: #ffffff;
+    color: $color1;
 }
 
 h1
 {
     font-family: $font-red-hat;
     font-size: 48px;
-    color: #32FFED;
+    color: $color1;
 }
 
 h2
 {
     font-family: $font-red-hat;
     font-size: 36px;
-    color: #32FFED;
+    color: $color1;
 }
 
 h3
 {
     font-family: $font-red-hat;
     font-size: 24px;
-    color: #100030;
+    color: $color1;
 }
 
 p
@@ -35,20 +35,20 @@ p
     font-family: $font-crimson;
     font-size: 18px;
     line-height: 1.4em;
-    color: #ffffff;
+    color: $color1;
 }
 
 a
 {
     text-decoration: none;
-    color: #32FFED;
+    color: $color4;
 }
 
 ul
 {
     font-family: $font-crimson;
-    list-style-type: none;
-    color: #ffffff;
+    list-style-type: disc;
+    color: $color1;
 }
 
 footer
@@ -59,7 +59,24 @@ footer
 .buttonNav
 {
     font-family: $font-red-hat;
-    color: #100030;
+    color: $color5;
+}
+
+.col
+{
+    h3
+    {
+        color: $color5;
+        text-align: center;
+    }
+    
+    &:hover
+    {
+        h3
+        {
+            color: $color1;
+        }
+    }
 }
 
 .project-header
@@ -72,7 +89,7 @@ footer
     
     p
     {
-        color: #32FFED;
+        color: $color1;
     }
     
     .specs
@@ -81,7 +98,7 @@ footer
         {
             list-style-type: disc;
             font-family: $font-crimson;
-            color: #32FFED;
+            color: $color1;
         }
     }
     
@@ -92,7 +109,7 @@ footer
         
         &:hover
         {
-            color: $color4;
+            color: $color1;
         }
     }
 }
