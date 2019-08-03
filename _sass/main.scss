@@ -79,6 +79,8 @@ footer
         margin-left: 24px;
         margin-right: 24px;
         
+        opacity: 0.6;
+        
         img
         {
             width: 100%;
@@ -89,6 +91,11 @@ footer
             bottom: 0px;
             left: 0px;
             right: 0px;
+        }
+        
+        &:hover
+        {
+            opacity: 1.0;
         }
     }
     
