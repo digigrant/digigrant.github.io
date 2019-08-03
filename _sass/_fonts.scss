@@ -39,8 +39,9 @@ a
 
 ul
 {
-    font-family: $font-family;
+    font-family: $font-crimson;
     list-style-type: none;
+    color: #ffffff;
 }
 
 footer
@@ -51,12 +52,7 @@ footer
 .buttonNav
 {
     font-family: $font-red-hat;
-    color: $color3;
-    
-    &:hover
-    {
-        color: $color1;
-    }
+    color: #100030;
 }
 
 .project-header
@@ -65,12 +61,11 @@ footer
     {
         font-family: $font-red-hat;
         font-size: 96px;
-        color: $color4;
     }
     
     p
     {
-        color: $color1;
+        color: ;
     }
     
     .specs
@@ -78,8 +73,8 @@ footer
         ul
         {
             list-style-type: disc;
-            font-family: $font-family;
-            color: $color2;
+            font-family: $font-crimson;
+            color: #32FFED;
         }
     }
     
