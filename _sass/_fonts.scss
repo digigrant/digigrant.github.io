@@ -1,4 +1,12 @@
 $font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+$font-red-hat: 'Red Hat Display', sans-serif;
+
+.logo
+{
+    font-family: $font-red-hat;
+    font-size: 90px;
+    color: #ffffff;
+}
 
 h1
 {
