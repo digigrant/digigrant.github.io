@@ -8,7 +8,7 @@
 
 body
 {
-    background-color: #B5004C;
+    background-color: $color3;
     background-image: url("/assets/images/background_small.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -35,14 +35,13 @@ nav
     line-height: 72px;
     margin-bottom: 24px;
     
-    background-color: #ffffff;
-    opacity: 0.6;
+    background-color: $color1;
     text-align: center;
     float: left;
     
     &:hover
     {
-        opacity: 1.0;
+        background-color: $color5;
     }
 }
 
@@ -135,7 +134,7 @@ footer
             margin-right: 24px;
             margin-bottom: 24px;
             
-            background-color: $color2;
+            background-color: $color1;
             float: left;
 
             img
@@ -149,7 +148,7 @@ footer
 
             h3
             {
-                color: $color3;
+                color: $color5;
                 text-align: center;
             }
         }
@@ -158,11 +157,11 @@ footer
         {
             .col
             {
-                background-color: $color4;
+                background-color: $color5;
 
                 h3
                 {
-                    color: $color5;
+                    color: $color1;
                 }
             }
         }
@@ -173,7 +172,8 @@ footer
 .project-header
 {
     clear: left;
-    background-color: #100030;
+    background-color: $color1;
+    opacity: 0.5;
     padding: 30px;
     overflow: auto;
     
@@ -240,7 +240,7 @@ footer
                     margin-right: 24px;
                     margin-bottom: 24px;
 
-                    background-color: #32FFED;
+                    background-color: $color1;
                     text-align: center;
 
                     &:hover
