@@ -6,6 +6,7 @@ $font-crimson: 'Crimson Text', serif;
 {
     font-family: $font-red-hat;
     font-size: 96px;
+    font-weight: bold;
     color: $color1;
 }
 
@@ -41,7 +42,7 @@ p
 a
 {
     text-decoration: none;
-    color: $color4;
+    color: $color2;
 }
 
 ul
