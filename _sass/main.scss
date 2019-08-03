@@ -145,24 +145,10 @@ footer
                 margin-right: auto;
                 margin-top: 25px;
             }
-
-            h3
-            {
-                color: $color5;
-                text-align: center;
-            }
-        }
-        
-        a:hover
-        {
-            .col
+            
+            &:hover
             {
                 background-color: $color5;
-
-                h3
-                {
-                    color: $color1;
-                }
             }
         }
     }
