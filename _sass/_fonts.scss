@@ -60,6 +60,11 @@ footer
 {
     font-family: $font-red-hat;
     color: $color5;
+    
+    &:hover
+    {
+        color: $color1;
+    }
 }
 
 .col
@@ -85,21 +90,7 @@ footer
     {
         font-family: $font-red-hat;
         font-size: 96px;
-    }
-    
-    p
-    {
-        color: $color1;
-    }
-    
-    .specs
-    {
-        ul
-        {
-            list-style-type: disc;
-            font-family: $font-crimson;
-            color: $color1;
-        }
+        line-height: 1em;
     }
     
     .buttonDownload
