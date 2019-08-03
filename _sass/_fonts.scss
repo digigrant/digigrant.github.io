@@ -5,29 +5,28 @@ $font-crimson: 'Crimson Text', serif;
 .logo
 {
     font-family: $font-red-hat;
-    font-size: 90px;
+    font-size: 96px;
     color: #ffffff;
 }
 
 h1
 {
     font-family: $font-red-hat;
-    font-size: 3em;
+    font-size: 48px;
     color: $color2;
 }
 
 h2
 {
     font-family: $font-red-hat;
-    font-size: 1.5em;
-    
+    font-size: 36px;
     color: $color2;
 }
 
 p
 {
     font-family: $font-crimson;
-    
+    font-size: 18px;
     line-height: 1.4em;
     color: #ffffff;
 }
@@ -46,7 +45,7 @@ ul
 
 footer
 {
-    font-size: .8em;
+    font-size: 12px;
 }
 
 .buttonNav
@@ -65,7 +64,7 @@ footer
     h1
     {
         font-family: $font-red-hat;
-        font-size: 6em;
+        font-size: 96px;
         color: $color4;
     }
     
