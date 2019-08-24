@@ -161,18 +161,23 @@ footer
                 
                 width: 48px;
                 height: 48px;
-                padding: 8px;
                 
                 position: absolute;
-                bottom: 12px;
+                bottom: 16px;
                 right: 24px;
                 
                 background-color: rgba(51,255,238,0.5);
 
                 img
                 {
-                    width: 100%;
-                    height: 100%;
+                    position: absolute;
+                    top: 8px;
+                    left: 8px;
+                    bottom: 8px;
+                    right: 8px;
+                    
+                    width: 32px;
+                    height: 32px;
                 }
 
                 &:hover
