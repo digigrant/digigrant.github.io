@@ -170,14 +170,16 @@ footer
 
                 img
                 {
+                    width: 32px;
+                    height: 32px;
+                    
                     position: absolute;
                     top: 8px;
                     left: 8px;
                     bottom: 8px;
                     right: 8px;
                     
-                    width: 32px;
-                    height: 32px;
+                    margin: 0;
                 }
 
                 &:hover
