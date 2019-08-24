@@ -147,27 +147,37 @@ footer
             &:hover
             {
                 background-color: $color5;
+                
+                .new-tab
+                {
+                    visibility: visible;
+                }
+            }
+            
+            .new-tab
+            {
+                visibility: hidden;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                overflow: auto;
+                width: 48px;
+                height: 48px;
+                padding: 16px;
+                background-color: rgba(51,255,238,0.5);
+
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &:hover
+                {
+                    background-color: rgba(51,255,238,1.0);
+                }
             }
         }
-    }
-}
-
-.new-tab
-{
-    float: right;
-    overflow: auto;
-    padding: 16px;
-    background-color: rgba(51,255,238,0.5);
-    
-    img
-    {
-        width: 32px;
-        height: 32px;
-    }
-    
-    &:hover
-    {
-        background-color: rgba(51,255,238,1.0);
     }
 }
 
