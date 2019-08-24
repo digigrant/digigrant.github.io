@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="project-header">
   <h1>{{ page.title }}</h1>
-  <div class="project-container">
+  <div class="container">
     
     <div class="video-container">
       <iframe class="video" src={{ "https://www.youtube.com/embed/" | append: page.video-id }} frameborder="0"></iframe>
@@ -12,7 +12,7 @@ layout: default
     <p>{{ page.description }}</p>
     
     <div class="downloads">
-      <p>Downloads:</p>
+      <p style="margin-top:0px;">Downloads:</p>
       
       <ul>
       {% for item in {{ site.data.downloads | where: "game",{{ page.name | remove: ".html" }} }} %}
