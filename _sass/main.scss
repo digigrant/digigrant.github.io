@@ -152,6 +152,24 @@ footer
     }
 }
 
+.new-tab
+{
+    float: right;
+    overflow: auto;
+    padding: 16px;
+    background-color: rgba(51,255,238,0.5);
+    
+    img
+    {
+        width: 32px;
+        height: 32px;
+    }
+    
+    &:hover
+    {
+        background-color: rgba(51,255,238,1.0);
+    }
+}
 
 .project-header
 {
