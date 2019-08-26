@@ -34,7 +34,7 @@ h3
 p
 {
     font-family: $font-crimson;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4em;
     color: $color1;
 }
@@ -42,7 +42,7 @@ p
 a
 {
     text-decoration: none;
-    color: $color2;
+    color: $color4;
 }
 
 ul
@@ -50,6 +50,12 @@ ul
     font-family: $font-crimson;
     list-style-type: disc;
     color: $color1;
+}
+
+li
+{
+    font-size: 20px;
+    line-height: 1.4em;
 }
 
 footer
