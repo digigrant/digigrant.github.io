@@ -20,12 +20,14 @@ nav
     overflow: auto;
     position: fixed;
     
-    top: 166px;
+    top: 177px;
     left: 32px;
     
     ul
     {
         list-style-type: none;
+        
+        margin: 0px;
         padding-left: 0px;
     }
 }
