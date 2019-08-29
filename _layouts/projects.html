@@ -15,7 +15,7 @@ layout: default
       <p style="margin-top:0px;">Downloads:</p>
       
       <ul>
-      {% for item in {{ site.data.downloads | where: "game","perdition" }} %}
+      {% for item in site.data.downloads %}
         <li><a href="{{ item.link }}">
           <div class="buttonDownload">{{ item.desc }}</div>
         </a></li>
