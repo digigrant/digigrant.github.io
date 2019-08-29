@@ -15,8 +15,9 @@ layout: default
       <p style="margin-top:0px;">Downloads:</p>
       
       <ul>
-      {% for item in site.data.downloads %}
-        <li><a href="{{ item.link }}">
+      {% assign my-downloads = site.data.downloads | where: "game","perdition" %}
+      {% for item in my-downloads %}
+        <li><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
           <div class="buttonDownload">{{ item.desc }}</div>
         </a></li>
       {% endfor %}
