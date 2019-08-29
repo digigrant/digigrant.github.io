@@ -1,5 +1,9 @@
 - game: perdition
-  desc: DigiPen Game Gallery
+  desc: Steam
+  link: https://store.steampowered.com/app/1137910
+
+- game: perdition
+  desc: DigiPen
   link: https://games.digipen.edu/games/perdition
   
 - game: diving-game
