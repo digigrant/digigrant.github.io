@@ -35,7 +35,7 @@ nav
 .buttonNav
 {
     width: 100%;
-    line-height: 72px;
+    line-height: 84px;
     margin-bottom: 24px;
     
     background-color: $color1;
@@ -229,10 +229,11 @@ footer
     .specs
     {
         width: 47.5%;
-        height: 200px;
+        height: 140px;
 
         ul
         {
+            list-style-type: none;
             padding-left: 0px;
         }
     }
@@ -242,7 +243,7 @@ footer
         float: right;
 
         width: 47.5%;
-        height: 200px;
+        height: 140px;
 
         ul
         {
@@ -252,9 +253,9 @@ footer
             .buttonDownload
             {
                 float: left;
-                padding-left: 24px;
-                padding-right: 24px;
-                line-height: 72px;
+                padding-left: 30px;
+                padding-right: 30px;
+                line-height: 84px;
                 margin-right: 24px;
                 margin-bottom: 24px;
 
