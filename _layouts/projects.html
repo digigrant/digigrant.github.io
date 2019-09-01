@@ -12,9 +12,9 @@ layout: default
     <p>{{ page.description }}</p>
     
     <div class="downloads">
-      <p style="margin-top:0px;">Downloads:</p>
+      <p style="margin-top:0px;margin-bottom:14px;">Downloads:</p>
       
-      <ul>
+      <ul style="margin:0px;">
       {% assign my-id = page.name | remove: ".html" %}
       {% assign my-downloads = site.data.downloads | where: "game",my-id %}
       {% for item in my-downloads %}
